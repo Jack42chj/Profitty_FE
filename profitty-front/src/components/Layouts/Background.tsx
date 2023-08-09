@@ -6,6 +6,7 @@ const CustomStack = styled(Stack)({
     backgroundColor: "#023E5D",
     height: "100%",
     width: "100%",
+    minHeight: "100vh"
 });
 
 interface BackgroundProps extends StackProps {

@@ -4,9 +4,9 @@ import { ReactNode } from "react";
 
 const CustomStack = styled(Stack)({
   justifyContent: "center",
-  width: "80%",
-  minHeight: "100vh",
+  width: "310px",
   margin: "0 auto",
+  marginTop: 30,
 });
 
 interface FormBoxProps extends StackProps {
