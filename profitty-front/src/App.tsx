@@ -5,6 +5,8 @@ import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import CoachReg from './pages/CoachReg';
 import FacilReg from './pages/FacilReg';
+import Home from './pages/Home';
+import Search from './pages/Search';
 import themes from './styles/themes';
 import { ThemeProvider } from "@emotion/react";
 
@@ -17,8 +19,8 @@ const App = () => {
         <Route path="/signup" element={<Signup />} />
         <Route path="/coach_register" element={<CoachReg />} />
         <Route path="/facility_register" element={<FacilReg />} />
-        {/* <Route path="/facility_search" element={} />
-        <Route path="/coach/home" element={} /> */}
+        <Route path="/home" element={<Home />} />
+        <Route path="/search" element={<Search />} />
       </Routes>
     </ThemeProvider>
   )

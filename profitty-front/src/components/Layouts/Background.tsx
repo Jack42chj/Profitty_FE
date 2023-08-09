@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import { Stack, StackProps } from "@mui/material";
+import { styled } from "@mui/system";
+import { Stack, StackProps, SxProps } from "@mui/material";
 import { ReactNode } from "react";
 
 const CustomStack = styled(Stack)({
@@ -11,6 +11,7 @@ const CustomStack = styled(Stack)({
 
 interface BackgroundProps extends StackProps {
     children: ReactNode;
+    sx?: SxProps;
 }
 
 const Background: React.FC<BackgroundProps> = ({ children, ...props }) => {

@@ -13,7 +13,7 @@ const CustomBtn = styled(Button)({
 
 interface CommonBtnProp extends ButtonProps {
     children: ReactNode;
-    sx: SxProps;
+    sx?: SxProps;
 }
 
 const CommonBtn: React.FC<CommonBtnProp>= ({ children, ...props }) => {

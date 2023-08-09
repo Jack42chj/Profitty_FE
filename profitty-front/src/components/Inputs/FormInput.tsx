@@ -1,15 +1,14 @@
 import { InputBase, InputProps, SxProps } from "@mui/material";
-import styled from "styled-components";
+import { styled } from "@mui/system";
 
 const CustomInput = styled(InputBase)({
     backgroundColor: "#FCFCFC",
-    color: "#7F7F7F",
     width: "100%",
     height: 43.3,
     borderRadius: 4,
     marginBottom: 20,
     padding: "0 10px",
-    ".MuiCheckbox-root" : {
+    '&.Mui-focused': { 
         border: "2px solid #369FFF",
     },
 });

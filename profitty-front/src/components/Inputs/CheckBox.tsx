@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import { styled } from "@mui/system";
 import { Checkbox } from "@mui/material";
 
 const CustomCheck = styled(Checkbox)({

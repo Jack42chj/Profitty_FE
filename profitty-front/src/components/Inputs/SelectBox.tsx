@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import { Select, SelectProps, SelectChangeEvent } from "@mui/material";
+import { styled } from "@mui/system";
+import { Select, SelectProps, SxProps, SelectChangeEvent } from "@mui/material";
 import { ReactNode } from "react";
 
 const CustomSelect = styled(Select)({
@@ -8,14 +8,18 @@ const CustomSelect = styled(Select)({
     width: "100%",
     borderRadius: 4,
     marginBottom: 20,
+    "& .MuiOutlinedInput-input": {
+        paddingLeft: "10px",
+    },
 });
 
-interface SelectBoxProp extends SelectProps {
+interface SelectBoxProps extends SelectProps {
     children: ReactNode;
-};
+    sx?: SxProps;
+}
 
-const SelectBox: React.FC<SelectBoxProp>= ({ children, ...props }) => {
-    return(
+const SelectBox: React.FC<SelectBoxProps> = ({ children, ...props }) => {
+    return (
         <CustomSelect {...props}>
             {children}
         </CustomSelect>
