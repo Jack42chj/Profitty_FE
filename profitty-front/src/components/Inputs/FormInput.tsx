@@ -6,7 +6,6 @@ const CustomInput = styled(InputBase)({
     width: "100%",
     height: 43.3,
     borderRadius: 4,
-    marginBottom: 20,
     padding: "0 10px",
     '&.Mui-focused': { 
         border: "2px solid #369FFF",

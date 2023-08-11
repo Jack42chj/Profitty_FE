@@ -8,11 +8,23 @@ const CustomText = styled(Typography)(({theme}) => ({
     fontWeight: "normal",
     fontStyle: "normal",
     fontSize: "35px",
-    [theme.breakpoints.up('md')]: {
-        fontSize: "35px",
+    "&.font16": {
+        fontSize: "16px",
+    },
+    "&.font28": {
+        fontSize: "28px",
+    },
+    "&.coach, &.text": {
+        fontSize: "20px",
+    },
+    "&.font32": {
+        fontSize: "32px",
     },
     [theme.breakpoints.up('lg')]: {
-        fontSize: "45px",
+        fontSize: "55px",
+        "&.coach, &.text": {
+            fontSize: "28px",
+        },
     },
 }));
 

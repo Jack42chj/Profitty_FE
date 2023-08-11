@@ -17,36 +17,36 @@ const Search = () => {
     return (
         <Background>
             <FormBox>
-                <ExtraBoldText sx={{ fontSize: "28px", mb: 1, letterSpacing: -1.2 }}>Profitty</ExtraBoldText>
-                <LightText sx={{ fontSize: "32px", mb: 2 }}>시설 검색</LightText>
+                <ExtraBoldText className="logo" sx={{ mb: 1, letterSpacing: -1.2 }}>Profitty</ExtraBoldText>
+                <LightText className="font32" sx={{ mb: 2 }}>시설 검색</LightText>
                 <FormInput placeholder="종목" name="sports" />
                 <SelectBox
                     value={si}
                     //onChange={handleChangeType}
                     displayEmpty
                 >
-                    <MenuItem value=""><LightText sx={{ color: "#7F7F7F" }}>대전광역시</LightText></MenuItem>
+                    <MenuItem value=""><LightText className="font16" sx={{ color: "#7F7F7F" }}>대전광역시</LightText></MenuItem>
                 </SelectBox>
                 <SelectBox
                     value={gu}
                     //onChange={handleChangeType}
                     displayEmpty
                 >
-                    <MenuItem value=""><LightText sx={{ color: "#7F7F7F" }}>구</LightText></MenuItem>
-                    <MenuItem value="1"><LightText sx={{ color: "#000000" }}>동구</LightText></MenuItem>
-                    <MenuItem value="2"><LightText sx={{ color: "#000000" }}>중구</LightText></MenuItem>
-                    <MenuItem value="2"><LightText sx={{ color: "#000000" }}>서구</LightText></MenuItem>
-                    <MenuItem value="2"><LightText sx={{ color: "#000000" }}>유성구</LightText></MenuItem>
-                    <MenuItem value="2"><LightText sx={{ color: "#000000" }}>대덕구</LightText></MenuItem>
+                    <MenuItem value=""><LightText className="font16" sx={{ color: "#7F7F7F" }}>구</LightText></MenuItem>
+                    <MenuItem value="1"><LightText className="font16" sx={{ color: "#000000" }}>동구</LightText></MenuItem>
+                    <MenuItem value="2"><LightText className="font16" sx={{ color: "#000000" }}>중구</LightText></MenuItem>
+                    <MenuItem value="2"><LightText className="font16" sx={{ color: "#000000" }}>서구</LightText></MenuItem>
+                    <MenuItem value="2"><LightText className="font16" sx={{ color: "#000000" }}>유성구</LightText></MenuItem>
+                    <MenuItem value="2"><LightText className="font16" sx={{ color: "#000000" }}>대덕구</LightText></MenuItem>
                 </SelectBox>
                 <SelectBox
                     value={dong}
                     //onChange={handleChangeType}
                     displayEmpty
                 >
-                    <MenuItem value=""><LightText sx={{ color: "#7F7F7F" }}>동</LightText></MenuItem>
-                    <MenuItem value="1"><LightText sx={{ color: "#000000" }}>중앙동</LightText></MenuItem>
-                    <MenuItem value="2"><LightText sx={{ color: "#000000" }}>신인동</LightText></MenuItem>
+                    <MenuItem value=""><LightText className="font16" sx={{ color: "#7F7F7F" }}>동</LightText></MenuItem>
+                    <MenuItem value="1"><LightText className="font16" sx={{ color: "#000000" }}>중앙동</LightText></MenuItem>
+                    <MenuItem value="2"><LightText className="font16" sx={{ color: "#000000" }}>신인동</LightText></MenuItem>
                 </SelectBox>
                 <RowBox sx={{ justifyContent: "flex-end" }}>
                     <CommonBtn sx={{ fontSize: "16px" }}>Continue</CommonBtn>

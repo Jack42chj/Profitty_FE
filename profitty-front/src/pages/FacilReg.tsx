@@ -5,13 +5,13 @@ import RowBox from "../components/Layouts/RowBox";
 import ExtraBoldText from "../components/Texts/ExtraBoldText";
 import LightText from "../components/Texts/LightText";
 import CommonBtn from "../components/Inputs/CommonBtn";
-import { Link } from "react-router-dom";
+import LinkTag from "../components/Inputs/LinkTag";
 
 const FacilReg = () => {
     return (
         <Background>
             <FormBox>
-                <Link to="/"><ExtraBoldText sx={{ fontSize: "28px", mb: 1, letterSpacing: -1.2 }}>Profitty</ExtraBoldText></Link>
+                <LinkTag to="/"><ExtraBoldText className="logo" sx={{ mb: 1, letterSpacing: -1.2 }}>Profitty</ExtraBoldText></LinkTag>
                 <LightText sx={{ fontSize: "32px", mb: 2 }}>장소 등록 신청 하기</LightText>
                 <FormInput placeholder="주소" name="address" />
                 <FormInput placeholder="시설명" name="name" />

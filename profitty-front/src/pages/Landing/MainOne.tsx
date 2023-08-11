@@ -1,20 +1,20 @@
 import Background from "../../components/Layouts/Background";
-import FormBox from "../../components/Layouts/FormBox";
+import MainBox from "../../components/Layouts/MainBox";
 import RowBox from "../../components/Layouts/RowBox";
 import ExtraBoldText from "../../components/Texts/ExtraBoldText";
 import LightText from "../../components/Texts/LightText";
 import CommonBtn from "../../components/Inputs/CommonBtn";
+import LinkTag from "../../components/Inputs/LinkTag";
 import { Stack } from "@mui/material";
 import BackgroundImage from "../../assets/images/image.png";
-import { Link } from "react-router-dom";
 
 const MainOne = () => {
     return (
         <Background sx={{ background: `url(${BackgroundImage})`, backgroundSize: 'cover', backgroundPosition: "center center" }}>
-            <FormBox>
+            <MainBox>
                 <RowBox mb={12}>
-                    <Link to="/"><ExtraBoldText sx={{ fontSize: "28px", letterSpacing: -1.2 }}>Profitty</ExtraBoldText></Link>
-                    <Link to="/signin"><LightText sx={{ fontSize: "16px" }}>Log in</LightText></Link>
+                    <LinkTag to="/"><ExtraBoldText className="logo" sx={{ letterSpacing: -1.2 }}>Profitty</ExtraBoldText></LinkTag>
+                    <LinkTag to="/signin"><LightText className="font16">Log in</LightText></LinkTag>
                 </RowBox>
                 <LightText>복잡한 과정을</LightText>
                 <Stack direction="row">
@@ -23,11 +23,11 @@ const MainOne = () => {
                 </Stack>
                 <ExtraBoldText>쉽게</ExtraBoldText>
                 <RowBox mt={23} sx={{ justifyContent: "flex-end" }}>
-                    <Link to="/signup">
-                        <CommonBtn sx={{ width: 185, height: 55, backgroundColor: "#023E5D", border: "none" }}><LightText sx={{ fontSize: "28px" }}>등록하기</LightText></CommonBtn>
-                    </Link>
+                    <LinkTag to="/signup">
+                        <CommonBtn className="signupBtn" sx={{ backgroundColor: "#023E5D", border: "none" }}><LightText className="font28">등록하기</LightText></CommonBtn>
+                    </LinkTag>
                 </RowBox>
-            </FormBox>
+            </MainBox>
         </Background>
     );
 };

@@ -7,12 +7,10 @@ import CoachReg from './pages/CoachReg';
 import FacilReg from './pages/FacilReg';
 import Home from './pages/Home';
 import Search from './pages/Search';
-import themes from './styles/themes';
-import { ThemeProvider } from "@emotion/react";
+import "./styles/styles.css";
 
 const App = () => {
   return (
-    <ThemeProvider theme={themes}>
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/signin" element={<Signin />} />
@@ -22,7 +20,6 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/search" element={<Search />} />
       </Routes>
-    </ThemeProvider>
   )
 }
 
