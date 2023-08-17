@@ -13,7 +13,7 @@ const MainOne = () => {
         <Background sx={{ background: `url(${BackgroundImage})`, backgroundSize: 'cover', backgroundPosition: "center center" }}>
             <MainBox>
                 <RowBox mb={12}>
-                    <LinkTag to="/"><ExtraBoldText className="logo" sx={{ letterSpacing: -1.2 }}>Profitty</ExtraBoldText></LinkTag>
+                    <LinkTag to="/home"><ExtraBoldText className="logo" sx={{ letterSpacing: -1.2 }}>Profitty</ExtraBoldText></LinkTag>
                     <LinkTag to="/signin"><LightText className="font16">Log in</LightText></LinkTag>
                 </RowBox>
                 <LightText>복잡한 과정을</LightText>

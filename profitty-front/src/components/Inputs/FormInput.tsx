@@ -14,11 +14,12 @@ const CustomInput = styled(InputBase)({
 
 interface FormInputProps extends InputProps {
     sx?: SxProps;
+    onChange?: (e: any) => void;
 }
 
 const FormInput: React.FC<FormInputProps> = (props) => {
     return(
-        <CustomInput {...props} />
+        <CustomInput {...props} onChange={props.onChange}/>
     );
 };
 

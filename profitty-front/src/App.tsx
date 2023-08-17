@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Main from './pages/Main';
-import Signin from './pages/Signin';
-import Signup from './pages/Signup';
-import CoachReg from './pages/CoachReg';
-import FacilReg from './pages/FacilReg';
+import Signin from './pages/Auth/Signin';
+import Signup from './pages/Auth/Signup';
+import CoachReg from './pages/Auth/CoachReg';
+import FacilReg from './pages/Auth/FacilReg';
 import Home from './pages/Home';
 import Search from './pages/Search';
 import "./styles/styles.css";

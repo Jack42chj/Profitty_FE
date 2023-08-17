@@ -8,6 +8,9 @@ const CustomText = styled(Typography)(({theme}) => ({
     fontWeight: "normal",
     fontStyle: "normal",
     fontSize: "35px",
+    "&.Efont16": {
+        fontSize: "16px",
+    },
     "&.logo, &.facil": {
         fontSize: "28px",
     },

@@ -3,7 +3,7 @@ import { Button, ButtonProps, SxProps } from "@mui/material";
 import { ReactNode } from "react";
 
 const CustomBtn = styled(Button)(({theme}) => ({
-    border: "1px solid #FCFCFC",
+    border: "2px solid #FCFCFC",
     color: "#FCFCFC",
     borderRadius: 60,
     width: 97.5,
