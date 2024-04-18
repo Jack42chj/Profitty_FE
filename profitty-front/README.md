@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+# Profitty
+> **체육 지도자와 체육 시설 관리자 장소 대여 및 시설 관리 웹/앱**
+![logo](https://github.com/Jack42chj/Profitty_FE/assets/86552441/f6a940a6-5e89-46f1-bd31-991239919c5d)
+- - -
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## ⚙️ 요구 사항(Requirements)
+> - Node.js 20.11.1
+> - yarn 1.22.21
+- - -
 
-In the project directory, you can run:
 
-### `yarn start`
+## 💡 실행 방법(Installation)
+```bash
+$ cd profitty_front
+$ yarn
+$ yan start
+```
+- - -
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🖥️ 서비스 소개(Introduction)
+> **체육 지도자와 체육 시설 관리자 장소 대여 및 시설 관리 웹/앱 입니다.**
+- - -
 
-### `yarn test`
+## 📑 구현 페이지(Development)
+### 🧾 메인 페이지
+![main](https://github.com/Jack42chj/Profitty_FE/assets/86552441/3a14c901-f6c5-48cf-86d8-7d1ba215e6b0)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🏠 홈 페이지/ 🔍 시설 검색 페이지
+![home](https://github.com/Jack42chj/Profitty_FE/assets/86552441/76b04430-6030-4fe4-bd97-8573226aa5e0)
 
-### `yarn build`
+### 🔑 로그인/회원가입 페이지
+![auth](https://github.com/Jack42chj/Profitty_FE/assets/86552441/a91cfeeb-5e3d-4e53-814a-27e307f878bd)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🧑‍🔧 시설관리자/ 🏃‍♂️ 체육지도자 등록 페이
+![register](https://github.com/Jack42chj/Profitty_FE/assets/86552441/b22a5fb4-3413-4725-9157-a801244df4c2)
+- - -
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🗓️ 개발 기간(Development Period)
+> **2024.08.07 ~ 2024.08.17**
+- - -
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🙋‍♂️ 주요 역활(Role)
+> **외주 프론트 웹 퍼블리싱**
+- - -
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📚 기술 스택(Stacks)
+### 🛣️ 개발 환경(Environment)
+<div>
+  <img src="https://img.shields.io/badge/VisualStudioCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+  <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+</div>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 💫 Config
+<img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white">
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🛠️ 개발 기술(Development)
+<div>
+  <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+  <img src="https://img.shields.io/badge/reactrouter-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white">
+  <img src="https://img.shields.io/badge/mui-007FFF?style=for-the-badge&logo=mui&logoColor=white">
+  <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white">
+   <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- - -
+
+
+## 🌟 주요 기능(Specification)
+#### 🔑 로그인/회원가입(Auth)
+- 로그인/회원가입을 유저 DB에서 정보를 조회하거나 삽입해서 처리
+
+#### ❤️ 체육지도자/시설관리자 등록(Register)
+- 로그인에 성공한 회원들에게만 제공하는 서비스
+- 체육지도자에 경우 자신의 프로필을 등록
+- 시설관리자에 경우 자신이 관리하는 체육 시설 등록
+
+#### 🔍 시설 검색 기능(Search)
+- 대전광역시에 있는 시설을 검색
+- 시설관리자가 등록한 시설 조회 가능
