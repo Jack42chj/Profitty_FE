@@ -75,6 +75,75 @@ $ yan start
 
 - - -
 
+## 📂 디렉토리 구조
+```bash
+profitty-front
+├─ .gitignore
+├─ package.json
+├─ public
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ logo192.png
+│  ├─ logo512.png
+│  ├─ manifest.json
+│  └─ robots.txt
+├─ README.md
+├─ src
+│  ├─ App.tsx
+│  ├─ assets
+│  │  ├─ fonts
+│  │  │  ├─ Font.css
+│  │  │  ├─ Pretendard-ExtraBold.woff
+│  │  │  └─ Pretendard-Light.woff
+│  │  └─ images
+│  │     └─ image.png
+│  ├─ components
+│  │  ├─ Inputs
+│  │  │  ├─ CheckBox.tsx
+│  │  │  ├─ CommonBtn.tsx
+│  │  │  ├─ FileBtn.tsx
+│  │  │  ├─ FormInput.tsx
+│  │  │  ├─ FormInputError.tsx
+│  │  │  ├─ LinkTag.tsx
+│  │  │  └─ SelectBox.tsx
+│  │  ├─ Layouts
+│  │  │  ├─ Background.tsx
+│  │  │  ├─ FormBox.tsx
+│  │  │  ├─ MainBox.tsx
+│  │  │  └─ RowBox.tsx
+│  │  ├─ SearchInfo.tsx
+│  │  └─ Texts
+│  │     ├─ ExtraBoldText.tsx
+│  │     └─ LightText.tsx
+│  ├─ index.tsx
+│  ├─ pages
+│  │  ├─ Auth
+│  │  │  ├─ CoachReg.tsx
+│  │  │  ├─ FacilReg.tsx
+│  │  │  ├─ Signin.tsx
+│  │  │  └─ Signup.tsx
+│  │  ├─ Home.tsx
+│  │  ├─ Landing
+│  │  │  ├─ MainFour.tsx
+│  │  │  ├─ MainOne.tsx
+│  │  │  ├─ MainThree.tsx
+│  │  │  └─ MainTwo.tsx
+│  │  ├─ Main.tsx
+│  │  └─ Search.tsx
+│  ├─ services
+│  │  └─ userServices.tsx
+│  ├─ styles
+│  │  └─ styles.css
+│  ├─ types
+│  │  └─ index.d.ts
+│  └─ utils
+│     ├─ Regex.tsx
+│     └─ Trim.tsx
+├─ tsconfig.json
+└─ yarn.lock
+
+```
+
 
 ## 🌟 주요 기능(Specification)
 #### 🔑 로그인/회원가입(Auth)
