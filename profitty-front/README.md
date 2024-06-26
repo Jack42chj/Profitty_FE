@@ -1,4 +1,4 @@
-# Profitty - 체육 지도자와 체육 시설 관리자 장소 대여 및 시설 관리 웹/앱
+# 💪 Profitty - 체육 지도자와 체육 시설 관리자 장소 대여 및 시설 관리 웹/앱
 
 ![logo](https://github.com/Jack42chj/Profitty_FE/assets/86552441/52e5949f-26f3-444a-a798-5660a7c17e54)
 
